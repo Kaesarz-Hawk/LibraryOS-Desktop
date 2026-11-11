@@ -3,6 +3,13 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+### Compiled Class Files ###
+*.class
+
+### Executables & Windows Shortcuts ###
+*.exe
+*.lnk
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -26,3 +33,7 @@ config/application.properties
 *.log
 .libraryos/
 
+### Operating System Files ###
+Thumbs.db
+Desktop.ini
+.DS_Store
