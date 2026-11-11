@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.libraryos.service.FinanceServiceIntegrationTest" time="2.757" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Kawsar Hoque\Desktop\LibraryOS\target\test-classes;C:\Users\Kawsar Hoque\Desktop\LibraryOS\target\classes;C:\Users\Kawsar Hoque\.m2\repository\org\openjfx\javafx-controls\21.0.2\javafx-controls-21.0.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\openjfx\javafx-controls\21.0.2\javafx-controls-21.0.2-win.jar;C:\Users\Kawsar Hoque\.m2\repository\org\openjfx\javafx-fxml\21.0.2\javafx-fxml-21.0.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\openjfx\javafx-fxml\21.0.2\javafx-fxml-21.0.2-win.jar;C:\Users\Kawsar Hoque\.m2\repository\org\openjfx\javafx-graphics\21.0.2\javafx-graphics-21.0.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\openjfx\javafx-graphics\21.0.2\javafx-graphics-21.0.2-win.jar;C:\Users\Kawsar Hoque\.m2\repository\org\openjfx\javafx-base\21.0.2\javafx-base-21.0.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\openjfx\javafx-base\21.0.2\javafx-base-21.0.2-win.jar;C:\Users\Kawsar Hoque\.m2\repository\com\mysql\mysql-connector-j\8.3.0\mysql-connector-j-8.3.0.jar;C:\Users\Kawsar Hoque\.m2\repository\com\google\protobuf\protobuf-java\3.25.1\protobuf-java-3.25.1.jar;C:\Users\Kawsar Hoque\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;C:\Users\Kawsar Hoque\.m2\repository\org\flywaydb\flyway-core\10.10.0\flyway-core-10.10.0.jar;C:\Users\Kawsar Hoque\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-toml\2.15.2\jackson-dataformat-toml-2.15.2.jar;C:\Users\Kawsar Hoque\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\Kawsar Hoque\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\Kawsar Hoque\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\Kawsar Hoque\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Kawsar Hoque\.m2\repository\org\flywaydb\flyway-mysql\10.10.0\flyway-mysql-10.10.0.jar;C:\Users\Kawsar Hoque\.m2\repository\org\mindrot\jbcrypt\0.4\jbcrypt-0.4.jar;C:\Users\Kawsar Hoque\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\Kawsar Hoque\.m2\repository\ch\qos\logback\logback-classic\1.5.3\logback-classic-1.5.3.jar;C:\Users\Kawsar Hoque\.m2\repository\ch\qos\logback\logback-core\1.5.3\logback-core-1.5.3.jar;C:\Users\Kawsar Hoque\.m2\repository\com\google\zxing\core\3.5.3\core-3.5.3.jar;C:\Users\Kawsar Hoque\.m2\repository\com\google\zxing\javase\3.5.3\javase-3.5.3.jar;C:\Users\Kawsar Hoque\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Kawsar Hoque\.m2\repository\com\github\jai-imageio\jai-imageio-core\1.4.0\jai-imageio-core-1.4.0.jar;C:\Users\Kawsar Hoque\.m2\repository\com\github\librepdf\openpdf\1.3.39\openpdf-1.3.39.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\pdfbox\pdfbox\3.0.2\pdfbox-3.0.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\pdfbox\pdfbox-io\3.0.2\pdfbox-io-3.0.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\pdfbox\fontbox\3.0.2\fontbox-3.0.2.jar;C:\Users\Kawsar Hoque\.m2\repository\commons-logging\commons-logging\1.3.0\commons-logging-1.3.0.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Kawsar Hoque\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Kawsar Hoque\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Kawsar Hoque\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Kawsar Hoque\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Kawsar Hoque\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Kawsar Hoque\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\mockito\mockito-core\5.24.0\mockito-core-5.24.0.jar;C:\Users\Kawsar Hoque\.m2\repository\net\bytebuddy\byte-buddy\1.17.7\byte-buddy-1.17.7.jar;C:\Users\Kawsar Hoque\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.7\byte-buddy-agent-1.17.7.jar;C:\Users\Kawsar Hoque\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Kawsar Hoque\.m2\repository\org\mockito\mockito-junit-jupiter\5.24.0\mockito-junit-jupiter-5.24.0.jar;C:\Users\Kawsar Hoque\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Dhaka"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\Kawsar Hoque\.jdk\jdk-25.0.5+8\bin"/>
+    <property name="sun.java.command" value="C:\Users\Kawsar Hoque\AppData\Local\Temp\surefire9204905592332721015\surefirebooter-20261110222524147_3.jar C:\Users\Kawsar Hoque\AppData\Local\Temp\surefire9204905592332721015 2026-11-10T22-25-23_643-jvmRun1 surefire-20261110222524147_1tmp surefire_0-20261110222524147_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Kawsar Hoque\Desktop\LibraryOS\target\test-classes;C:\Users\Kawsar Hoque\Desktop\LibraryOS\target\classes;C:\Users\Kawsar Hoque\.m2\repository\org\openjfx\javafx-controls\21.0.2\javafx-controls-21.0.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\openjfx\javafx-controls\21.0.2\javafx-controls-21.0.2-win.jar;C:\Users\Kawsar Hoque\.m2\repository\org\openjfx\javafx-fxml\21.0.2\javafx-fxml-21.0.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\openjfx\javafx-fxml\21.0.2\javafx-fxml-21.0.2-win.jar;C:\Users\Kawsar Hoque\.m2\repository\org\openjfx\javafx-graphics\21.0.2\javafx-graphics-21.0.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\openjfx\javafx-graphics\21.0.2\javafx-graphics-21.0.2-win.jar;C:\Users\Kawsar Hoque\.m2\repository\org\openjfx\javafx-base\21.0.2\javafx-base-21.0.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\openjfx\javafx-base\21.0.2\javafx-base-21.0.2-win.jar;C:\Users\Kawsar Hoque\.m2\repository\com\mysql\mysql-connector-j\8.3.0\mysql-connector-j-8.3.0.jar;C:\Users\Kawsar Hoque\.m2\repository\com\google\protobuf\protobuf-java\3.25.1\protobuf-java-3.25.1.jar;C:\Users\Kawsar Hoque\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;C:\Users\Kawsar Hoque\.m2\repository\org\flywaydb\flyway-core\10.10.0\flyway-core-10.10.0.jar;C:\Users\Kawsar Hoque\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-toml\2.15.2\jackson-dataformat-toml-2.15.2.jar;C:\Users\Kawsar Hoque\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\Kawsar Hoque\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\Kawsar Hoque\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\Kawsar Hoque\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Kawsar Hoque\.m2\repository\org\flywaydb\flyway-mysql\10.10.0\flyway-mysql-10.10.0.jar;C:\Users\Kawsar Hoque\.m2\repository\org\mindrot\jbcrypt\0.4\jbcrypt-0.4.jar;C:\Users\Kawsar Hoque\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\Kawsar Hoque\.m2\repository\ch\qos\logback\logback-classic\1.5.3\logback-classic-1.5.3.jar;C:\Users\Kawsar Hoque\.m2\repository\ch\qos\logback\logback-core\1.5.3\logback-core-1.5.3.jar;C:\Users\Kawsar Hoque\.m2\repository\com\google\zxing\core\3.5.3\core-3.5.3.jar;C:\Users\Kawsar Hoque\.m2\repository\com\google\zxing\javase\3.5.3\javase-3.5.3.jar;C:\Users\Kawsar Hoque\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Kawsar Hoque\.m2\repository\com\github\jai-imageio\jai-imageio-core\1.4.0\jai-imageio-core-1.4.0.jar;C:\Users\Kawsar Hoque\.m2\repository\com\github\librepdf\openpdf\1.3.39\openpdf-1.3.39.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\pdfbox\pdfbox\3.0.2\pdfbox-3.0.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\pdfbox\pdfbox-io\3.0.2\pdfbox-io-3.0.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\pdfbox\fontbox\3.0.2\fontbox-3.0.2.jar;C:\Users\Kawsar Hoque\.m2\repository\commons-logging\commons-logging\1.3.0\commons-logging-1.3.0.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Kawsar Hoque\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Kawsar Hoque\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Kawsar Hoque\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Kawsar Hoque\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Kawsar Hoque\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Kawsar Hoque\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\Kawsar Hoque\.m2\repository\org\mockito\mockito-core\5.24.0\mockito-core-5.24.0.jar;C:\Users\Kawsar Hoque\.m2\repository\net\bytebuddy\byte-buddy\1.17.7\byte-buddy-1.17.7.jar;C:\Users\Kawsar Hoque\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.7\byte-buddy-agent-1.17.7.jar;C:\Users\Kawsar Hoque\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Kawsar Hoque\.m2\repository\org\mockito\mockito-junit-jupiter\5.24.0\mockito-junit-jupiter-5.24.0.jar;C:\Users\Kawsar Hoque\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Kawsar Hoque"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-10-20"/>
+    <property name="java.home" value="C:\Users\Kawsar Hoque\.jdk\jdk-25.0.5+8"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Kawsar Hoque\Desktop\LibraryOS"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Kawsar Hoque\AppData\Local\Temp\surefire9204905592332721015\surefirebooter-20261110222524147_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.5+8-LTS"/>
+    <property name="user.name" value="Kawsar Hoque"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-25.0.5+8"/>
+    <property name="localRepository" value="C:\Users\Kawsar Hoque\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\KAWSAR~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.5"/>
+    <property name="user.dir" value="C:\Users\Kawsar Hoque\Desktop\LibraryOS"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Kawsar Hoque\.jdk\jdk-25.0.5+8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Kawsar Hoque\.jdk\jdk-25.0.5+8\bin;C:\Users\Kawsar Hoque\AppData\Local\Microsoft\WindowsApps\Microsoft.PowerShell_8wekyb3d8bbwe;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Kawsar Hoque\AppData\Local\Microsoft\WindowsApps;C:\Users\Kawsar Hoque\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;C:\Users\Kawsar Hoque\AppData\Local\Programs\Ollama;C:\Users\Kawsar Hoque\.bun\bin;C:\Users\Kawsar Hoque\AppData\Roaming\npm;C:\Users\Kawsar Hoque\AppData\Local\Microsoft\WinGet\Links;C:\Users\Kawsar Hoque\AppData\Local\PowerToys\DSCModules\;C:\Users\Kawsar Hoque\AppData\Local\Microsoft\WinGet\Packages\junegunn.fzf_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Kawsar Hoque\.lmstudio\bin;C:\Users\Kawsar Hoque\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\Kawsar Hoque\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;C:\Users\Kawsar Hoque\tools\apache-maven-3.9.9\bin;C:\Users\Kawsar Hoque\.dotnet\tools;c:\Users\Kawsar Hoque\AppData\Local\Programs\Microsoft VS Code\c4453f8ea4\resources\app\node_modules.asar.unpacked\@vscode\ripgrep-universal\bin\win32-x64;c:\Users\Kawsar Hoque\AppData\Local\Programs\Microsoft VS Code\c4453f8ea4\resources\app\node_modules.asar.unpacked\@github\copilot-sdk-win32-x64\ripgrep\bin\win32-x64;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="25.0.5+8-LTS"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testPreventDuplicateMfsTrxId" classname="com.libraryos.service.FinanceServiceIntegrationTest" time="0.396">
+    <system-out><![CDATA[2026-11-10 22:25:49.132 [main] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:h2:mem:libraryos_fin_test (H2 2.2)
+2026-11-10 22:25:49.133 [main] WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2026-11-10 22:25:49.134 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-11-10 22:25:49.134 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-11-10 22:25:49.134 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.000s)
+2026-11-10 22:25:49.134 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.000s)
+2026-11-10 22:25:49.134 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-11-10 22:25:49.137 [main] WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2026-11-10 22:25:49.152 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-11-10 22:25:49.152 [main] INFO  o.f.core.internal.command.DbValidate - Successfully validated 7 migrations (execution time 00:00.014s)
+2026-11-10 22:25:49.153 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2026-11-10 22:25:49.154 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2026-11-10 22:25:49.158 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "1 - init core schema"
+2026-11-10 22:25:49.163 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "2 - catalog and inventory"
+2026-11-10 22:25:49.170 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "3 - members and policies"
+2026-11-10 22:25:49.178 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "4 - circulation reservations finance"
+2026-11-10 22:25:49.184 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "5 - digital and acquisitions"
+2026-11-10 22:25:49.299 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "6 - seed 300 master books"
+2026-11-10 22:25:49.508 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "7 - seed friends circulation finance acquisitions"
+2026-11-10 22:25:49.512 [main] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 7 migrations to schema "public", now at version v7 (execution time 00:00.175s)
+2026-11-10 22:25:49.515 [main] INFO  com.libraryos.service.FineService - Fine #8 created for member LIB-2026-0001 (৳100.00)
+2026-11-10 22:25:49.520 [main] INFO  c.libraryos.service.PaymentService - Payment #15 (Receipt REC-20261110-949519) recorded: ৳50.00 for member LIB-2026-0001
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchFinesAndPayments" classname="com.libraryos.service.FinanceServiceIntegrationTest" time="0.314">
+    <system-out><![CDATA[2026-11-10 22:25:49.524 [main] WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2026-11-10 22:25:49.524 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-11-10 22:25:49.527 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.001s)
+2026-11-10 22:25:49.527 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.000s)
+2026-11-10 22:25:49.527 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-11-10 22:25:49.529 [main] WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2026-11-10 22:25:49.535 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-11-10 22:25:49.537 [main] INFO  o.f.core.internal.command.DbValidate - Successfully validated 7 migrations (execution time 00:00.007s)
+2026-11-10 22:25:49.537 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2026-11-10 22:25:49.538 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2026-11-10 22:25:49.540 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "1 - init core schema"
+2026-11-10 22:25:49.547 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "2 - catalog and inventory"
+2026-11-10 22:25:49.554 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "3 - members and policies"
+2026-11-10 22:25:49.558 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "4 - circulation reservations finance"
+2026-11-10 22:25:49.566 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "5 - digital and acquisitions"
+2026-11-10 22:25:49.669 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "6 - seed 300 master books"
+2026-11-10 22:25:49.824 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "7 - seed friends circulation finance acquisitions"
+2026-11-10 22:25:49.829 [main] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 7 migrations to schema "public", now at version v7 (execution time 00:00.120s)
+2026-11-10 22:25:49.831 [main] INFO  com.libraryos.service.FineService - Fine #8 created for member LIB-2026-0001 (৳450.00)
+2026-11-10 22:25:49.833 [main] INFO  c.libraryos.service.PaymentService - Payment #15 (Receipt REC-20261110-949833) recorded: ৳100.00 for member LIB-2026-0001
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateFineSuccess" classname="com.libraryos.service.FinanceServiceIntegrationTest" time="0.326">
+    <system-out><![CDATA[2026-11-10 22:25:49.841 [main] WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2026-11-10 22:25:49.841 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-11-10 22:25:49.844 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.002s)
+2026-11-10 22:25:49.844 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.000s)
+2026-11-10 22:25:49.844 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-11-10 22:25:49.845 [main] WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2026-11-10 22:25:49.853 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-11-10 22:25:49.853 [main] INFO  o.f.core.internal.command.DbValidate - Successfully validated 7 migrations (execution time 00:00.006s)
+2026-11-10 22:25:49.853 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2026-11-10 22:25:49.856 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2026-11-10 22:25:49.857 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "1 - init core schema"
+2026-11-10 22:25:49.865 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "2 - catalog and inventory"
+2026-11-10 22:25:49.871 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "3 - members and policies"
+2026-11-10 22:25:49.875 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "4 - circulation reservations finance"
+2026-11-10 22:25:49.882 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "5 - digital and acquisitions"
+2026-11-10 22:25:49.991 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "6 - seed 300 master books"
+2026-11-10 22:25:50.156 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "7 - seed friends circulation finance acquisitions"
+2026-11-10 22:25:50.159 [main] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 7 migrations to schema "public", now at version v7 (execution time 00:00.127s)
+2026-11-10 22:25:50.161 [main] INFO  com.libraryos.service.FineService - Fine #8 created for member LIB-2026-0001 (৳150.00)
+]]></system-out>
+  </testcase>
+  <testcase name="testWaiveFineSuccess" classname="com.libraryos.service.FinanceServiceIntegrationTest" time="0.33">
+    <system-out><![CDATA[2026-11-10 22:25:50.165 [main] WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2026-11-10 22:25:50.167 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-11-10 22:25:50.169 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.002s)
+2026-11-10 22:25:50.170 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.000s)
+2026-11-10 22:25:50.170 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-11-10 22:25:50.172 [main] WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2026-11-10 22:25:50.181 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-11-10 22:25:50.181 [main] INFO  o.f.core.internal.command.DbValidate - Successfully validated 7 migrations (execution time 00:00.008s)
+2026-11-10 22:25:50.181 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2026-11-10 22:25:50.182 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2026-11-10 22:25:50.184 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "1 - init core schema"
+2026-11-10 22:25:50.192 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "2 - catalog and inventory"
+2026-11-10 22:25:50.197 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "3 - members and policies"
+2026-11-10 22:25:50.201 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "4 - circulation reservations finance"
+2026-11-10 22:25:50.208 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "5 - digital and acquisitions"
+2026-11-10 22:25:50.309 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "6 - seed 300 master books"
+2026-11-10 22:25:50.472 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "7 - seed friends circulation finance acquisitions"
+2026-11-10 22:25:50.479 [main] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 7 migrations to schema "public", now at version v7 (execution time 00:00.125s)
+2026-11-10 22:25:50.480 [main] INFO  com.libraryos.service.FineService - Fine #8 created for member LIB-2026-0001 (৳100.00)
+2026-11-10 22:25:50.491 [main] INFO  com.libraryos.service.FineService - Fine #8 waived by ৳100.00. New balance: ৳0.00
+]]></system-out>
+  </testcase>
+  <testcase name="testWaiveFinePermissionDenied" classname="com.libraryos.service.FinanceServiceIntegrationTest" time="0.313">
+    <system-out><![CDATA[2026-11-10 22:25:50.495 [main] WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2026-11-10 22:25:50.495 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-11-10 22:25:50.497 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.001s)
+2026-11-10 22:25:50.497 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.000s)
+2026-11-10 22:25:50.498 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-11-10 22:25:50.499 [main] WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2026-11-10 22:25:50.507 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-11-10 22:25:50.507 [main] INFO  o.f.core.internal.command.DbValidate - Successfully validated 7 migrations (execution time 00:00.007s)
+2026-11-10 22:25:50.507 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2026-11-10 22:25:50.508 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2026-11-10 22:25:50.511 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "1 - init core schema"
+2026-11-10 22:25:50.517 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "2 - catalog and inventory"
+2026-11-10 22:25:50.522 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "3 - members and policies"
+2026-11-10 22:25:50.525 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "4 - circulation reservations finance"
+2026-11-10 22:25:50.531 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "5 - digital and acquisitions"
+2026-11-10 22:25:50.613 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "6 - seed 300 master books"
+2026-11-10 22:25:50.796 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "7 - seed friends circulation finance acquisitions"
+2026-11-10 22:25:50.802 [main] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 7 migrations to schema "public", now at version v7 (execution time 00:00.134s)
+2026-11-10 22:25:50.804 [main] INFO  com.libraryos.service.FineService - Fine #8 created for member LIB-2026-0001 (৳50.00)
+]]></system-out>
+  </testcase>
+  <testcase name="testReversePaymentRestoresFines" classname="com.libraryos.service.FinanceServiceIntegrationTest" time="0.572">
+    <system-out><![CDATA[2026-11-10 22:25:50.808 [main] WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2026-11-10 22:25:50.809 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-11-10 22:25:50.814 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.004s)
+2026-11-10 22:25:50.814 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.000s)
+2026-11-10 22:25:50.815 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-11-10 22:25:50.817 [main] WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2026-11-10 22:25:50.829 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-11-10 22:25:50.830 [main] INFO  o.f.core.internal.command.DbValidate - Successfully validated 7 migrations (execution time 00:00.012s)
+2026-11-10 22:25:50.830 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2026-11-10 22:25:50.832 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2026-11-10 22:25:50.837 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "1 - init core schema"
+2026-11-10 22:25:50.849 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "2 - catalog and inventory"
+2026-11-10 22:25:50.857 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "3 - members and policies"
+2026-11-10 22:25:50.862 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "4 - circulation reservations finance"
+2026-11-10 22:25:50.874 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "5 - digital and acquisitions"
+2026-11-10 22:25:51.093 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "6 - seed 300 master books"
+2026-11-10 22:25:51.344 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "7 - seed friends circulation finance acquisitions"
+2026-11-10 22:25:51.352 [main] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 7 migrations to schema "public", now at version v7 (execution time 00:00.202s)
+2026-11-10 22:25:51.354 [main] INFO  com.libraryos.service.FineService - Fine #8 created for member LIB-2026-0001 (৳50.00)
+2026-11-10 22:25:51.356 [main] INFO  c.libraryos.service.PaymentService - Payment #15 (Receipt REC-20261110-951356) recorded: ৳50.00 for member LIB-2026-0001
+2026-11-10 22:25:51.377 [main] INFO  c.libraryos.service.PaymentService - Payment #15 reversed. Reason: Mistaken cash collection receipt posted to wrong account
+]]></system-out>
+  </testcase>
+  <testcase name="testRecordPaymentAllocatesFIFO" classname="com.libraryos.service.FinanceServiceIntegrationTest" time="0.496">
+    <system-out><![CDATA[2026-11-10 22:25:51.382 [main] WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2026-11-10 22:25:51.383 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-11-10 22:25:51.387 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.003s)
+2026-11-10 22:25:51.387 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.000s)
+2026-11-10 22:25:51.387 [main] INFO  o.f.c.i.command.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-11-10 22:25:51.390 [main] WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2026-11-10 22:25:51.401 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-11-10 22:25:51.401 [main] INFO  o.f.core.internal.command.DbValidate - Successfully validated 7 migrations (execution time 00:00.010s)
+2026-11-10 22:25:51.402 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2026-11-10 22:25:51.404 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2026-11-10 22:25:51.407 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "1 - init core schema"
+2026-11-10 22:25:51.414 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "2 - catalog and inventory"
+2026-11-10 22:25:51.424 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "3 - members and policies"
+2026-11-10 22:25:51.432 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "4 - circulation reservations finance"
+2026-11-10 22:25:51.443 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "5 - digital and acquisitions"
+2026-11-10 22:25:51.612 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "6 - seed 300 master books"
+2026-11-10 22:25:51.862 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "7 - seed friends circulation finance acquisitions"
+2026-11-10 22:25:51.870 [main] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 7 migrations to schema "public", now at version v7 (execution time 00:00.196s)
+2026-11-10 22:25:51.872 [main] INFO  com.libraryos.service.FineService - Fine #8 created for member LIB-2026-0001 (৳60.00)
+2026-11-10 22:25:51.873 [main] INFO  com.libraryos.service.FineService - Fine #9 created for member LIB-2026-0001 (৳40.00)
+2026-11-10 22:25:51.874 [main] INFO  c.libraryos.service.PaymentService - Payment #15 (Receipt REC-20261110-951873) recorded: ৳80.00 for member LIB-2026-0001
+]]></system-out>
+  </testcase>
+</testsuite>
