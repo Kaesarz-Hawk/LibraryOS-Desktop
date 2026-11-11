@@ -1,4 +1,3 @@
--------------------------------------------------------------------------------
-Test set: com.libraryos.service.ReviewServiceIntegrationTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.488 s -- in com.libraryos.service.ReviewServiceIntegrationTest
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a6c98817c42011388324c0aa065ed61401076ae272e4de47d5ec810b5efc0ed
+size 354

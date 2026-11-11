@@ -1,4 +1,3 @@
--------------------------------------------------------------------------------
-Test set: com.libraryos.service.NotificationServiceIntegrationTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.535 s -- in com.libraryos.service.NotificationServiceIntegrationTest
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f32d5089263a743efa2e6cc415474a0a1b0b20c053c05a21cb409ed94420dde
+size 366

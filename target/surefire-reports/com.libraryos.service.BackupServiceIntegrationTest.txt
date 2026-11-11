@@ -1,4 +1,3 @@
--------------------------------------------------------------------------------
-Test set: com.libraryos.service.BackupServiceIntegrationTest
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.292 s -- in com.libraryos.service.BackupServiceIntegrationTest
+version https://git-lfs.github.com/spec/v1
+oid sha256:b362151316f7737c0f7e2aa5fa5df6f77b1818b9c30c8c27dfae2ace60d8204d
+size 354

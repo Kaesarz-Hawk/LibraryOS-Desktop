@@ -1,4 +1,3 @@
--------------------------------------------------------------------------------
-Test set: com.libraryos.core.util.BarcodeUtilTest
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.197 s -- in com.libraryos.core.util.BarcodeUtilTest
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a3bee4b5b278674fc19766b6ed35f9487f27ecdb23259f424609ebef8688924
+size 332

@@ -1,28 +1,3 @@
-com\libraryos\service\AiAssistantServiceTest.class
-com\libraryos\service\FineCalculationServiceTest.class
-com\libraryos\core\validation\ValidationUtilTest.class
-com\libraryos\repository\FlywayMigrationIntegrationTest.class
-com\libraryos\core\security\PermissionGuardTest.class
-com\libraryos\service\AuthServiceTest.class
-com\libraryos\service\ExcelExportServiceTest.class
-com\libraryos\service\InventoryServiceTest.class
-com\libraryos\service\BackupServiceIntegrationTest.class
-com\libraryos\service\NotificationGatewayServiceTest.class
-com\libraryos\service\MemberServiceTest.class
-com\libraryos\service\CatalogServiceTest.class
-com\libraryos\service\CirculationServiceIntegrationTest.class
-com\libraryos\service\FinanceServiceIntegrationTest.class
-com\libraryos\service\MfsVerificationServiceTest.class
-com\libraryos\view\ThemeManagerTest.class
-com\libraryos\service\DigitalLibraryServiceIntegrationTest.class
-com\libraryos\service\AcquisitionServiceIntegrationTest.class
-com\libraryos\service\RecommendationServiceTest.class
-com\libraryos\core\util\CurrencyFormatUtilTest.class
-com\libraryos\core\util\BarcodeUtilTest.class
-com\libraryos\core\security\PasswordHasherTest.class
-com\libraryos\util\ApplyMigrationV7.class
-com\libraryos\service\PdfExportServiceTest.class
-com\libraryos\service\ReportServiceIntegrationTest.class
-com\libraryos\service\NotificationServiceIntegrationTest.class
-com\libraryos\service\ReservationServiceIntegrationTest.class
-com\libraryos\service\ReviewServiceIntegrationTest.class
+version https://git-lfs.github.com/spec/v1
+oid sha256:48e451cf10de6eb6027af50398fb1b9a3e326953bb67308af023fd247a77464b
+size 1510

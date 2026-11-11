@@ -1,4 +1,3 @@
--------------------------------------------------------------------------------
-Test set: com.libraryos.view.ThemeManagerTest
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s -- in com.libraryos.view.ThemeManagerTest
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ce622e2a1f0c45ab566e681f4fb8130569313bbeed02f0e522bf615b907ce93
+size 324

@@ -1,4 +1,3 @@
--------------------------------------------------------------------------------
-Test set: com.libraryos.service.NotificationGatewayServiceTest
--------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 s -- in com.libraryos.service.NotificationGatewayServiceTest
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f48afc4f6854652233ea5e4073d5026ad0459a2c859937f79accc4a58bae1f2
+size 358

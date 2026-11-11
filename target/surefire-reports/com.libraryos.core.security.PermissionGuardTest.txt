@@ -1,4 +1,3 @@
--------------------------------------------------------------------------------
-Test set: com.libraryos.core.security.PermissionGuardTest
--------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s -- in com.libraryos.core.security.PermissionGuardTest
+version https://git-lfs.github.com/spec/v1
+oid sha256:3486f8655ed821dda4cae414edd4e825bfe819ffae594fefcea184bfab6af1f9
+size 348

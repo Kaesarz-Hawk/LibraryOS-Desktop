@@ -1,4 +1,3 @@
--------------------------------------------------------------------------------
-Test set: com.libraryos.service.AiAssistantServiceTest
--------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.969 s -- in com.libraryos.service.AiAssistantServiceTest
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f5ebe0427b1949d04ffc8aa38d7e3835049771b9458b96633cadc616c60de7b
+size 342

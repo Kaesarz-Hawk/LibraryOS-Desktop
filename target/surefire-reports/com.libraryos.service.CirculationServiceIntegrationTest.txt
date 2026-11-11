@@ -1,4 +1,3 @@
--------------------------------------------------------------------------------
-Test set: com.libraryos.service.CirculationServiceIntegrationTest
--------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.990 s -- in com.libraryos.service.CirculationServiceIntegrationTest
+version https://git-lfs.github.com/spec/v1
+oid sha256:ecfdb8671626a467eaca3f395856fbf091ed9b6b4852672c93eb97efe452d4b6
+size 364
